@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="B_HandTest" time="0.235" tests="14" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="MS874"/>
+    <property name="java.class.path" value="C:\Users\OS\Documents\NetBeansProjects\mooc-java-programming-ii\part10-Part10_17.SortThemCards\target\test-classes;C:\Users\OS\Documents\NetBeansProjects\mooc-java-programming-ii\part10-Part10_17.SortThemCards\target\classes;C:\Users\OS\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\OS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\OS\.m2\repository\fi\helsinki\cs\tmc\edu-test-utils\0.4.2\edu-test-utils-0.4.2.jar;"/>
+    <property name="java.vm.vendor" value="AdoptOpenJDK"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptopenjdk.net/"/>
+    <property name="user.timezone" value="Asia/Bangkok"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\OS\AppData\Local\Temp\surefire6780008021825691083\surefirebooter3900129294616187526.jar C:\Users\OS\AppData\Local\Temp\surefire6780008021825691083 2021-05-29T09-47-17_350-jvmRun1 surefire5364838649539328502tmp surefire_0595323142464165675tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\OS\Documents\NetBeansProjects\mooc-java-programming-ii\part10-Part10_17.SortThemCards\target\test-classes;C:\Users\OS\Documents\NetBeansProjects\mooc-java-programming-ii\part10-Part10_17.SortThemCards\target\classes;C:\Users\OS\.m2\repository\junit\junit\4.12\junit-4.12.jar;C:\Users\OS\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\OS\.m2\repository\fi\helsinki\cs\tmc\edu-test-utils\0.4.2\edu-test-utils-0.4.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\OS"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.home" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\OS\Documents\NetBeansProjects\mooc-java-programming-ii\part10-Part10_17.SortThemCards"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\OS\AppData\Local\Temp\surefire6780008021825691083\surefirebooter3900129294616187526.jar"/>
+    <property name="jdk.net.URLClassPath.disableClassPathURLCheck" value="true"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.11+9"/>
+    <property name="user.name" value="OS"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="AdoptOpenJDK-11.0.11+9"/>
+    <property name="localRepository" value="C:\Users\OS\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/AdoptOpenJDK/openjdk-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\OS\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="user.dir" value="C:\Users\OS\Documents\NetBeansProjects\mooc-java-programming-ii\part10-Part10_17.SortThemCards"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\AdoptOpenJDK\jdk-11.0.11.9-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\OS\AppData\Local\Microsoft\WindowsApps;;C:\Users\OS\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="AdoptOpenJDK"/>
+    <property name="java.vm.version" value="11.0.11+9"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="onCompareToMethod" classname="B_HandTest" time="0"/>
+  <testcase name="sortedPrintingWorks" classname="B_HandTest" time="0.22"/>
+  <testcase name="methodPrint" classname="B_HandTest" time="0"/>
+  <testcase name="methodAdd" classname="B_HandTest" time="0"/>
+  <testcase name="methodSort" classname="B_HandTest" time="0"/>
+  <testcase name="printingWorks" classname="B_HandTest" time="0"/>
+  <testcase name="comparisonWorks1" classname="B_HandTest" time="0"/>
+  <testcase name="comparisonWorks2" classname="B_HandTest" time="0.015"/>
+  <testcase name="comparisonWorks3" classname="B_HandTest" time="0"/>
+  <testcase name="comparisonWorks4" classname="B_HandTest" time="0"/>
+  <testcase name="comparisonWorks5" classname="B_HandTest" time="0"/>
+  <testcase name="isConstructor" classname="B_HandTest" time="0"/>
+  <testcase name="noExtraVariables" classname="B_HandTest" time="0"/>
+  <testcase name="onImplementComparableHand" classname="B_HandTest" time="0"/>
+</testsuite>
